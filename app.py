@@ -31,6 +31,9 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 from urllib.parse import urljoin, urlparse
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from flask import Flask, abort, jsonify, request, send_file, send_from_directory
 from flask_cors import CORS
 from werkzeug.exceptions import HTTPException
