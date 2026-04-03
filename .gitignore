@@ -2,3 +2,4 @@
 __pycache__/
 metadata.db-shm
 metadata.db-wal
+node_modules/
